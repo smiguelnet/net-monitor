@@ -1,0 +1,13 @@
+[package]
+name = "monitor"
+version = "0.2.0"
+edition = "2021"
+description = "Network availability monitor (ISP / router / access points) with a web dashboard"
+
+# No external dependencies: standard library only.
+[dependencies]
+
+[profile.release]
+opt-level = "s"
+strip = true
+lto = true
