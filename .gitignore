@@ -1,0 +1,6 @@
+# Rust build artifacts
+/target/
+
+# Executables copied to the project root
+/monitor
+/monitor.exe
